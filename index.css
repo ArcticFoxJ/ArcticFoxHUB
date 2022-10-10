@@ -1,12 +1,7 @@
 .nav .nav-link {
     margin-left: 1rem;
-    color: #808080;
-    border-bottom: .25rem solid transparent;
-}
-
-.nav .nav-link.active {
     color: #FFFFFF;
-    border-bottom-color: #FFFFFF;
+    border-bottom: .25rem solid transparent;
 }
 
 footer,
