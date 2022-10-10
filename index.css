@@ -1,0 +1,53 @@
+.nav .nav-link {
+    margin-left: 1rem;
+    color: #808080;
+    border-bottom: .25rem solid transparent;
+}
+
+.nav .nav-link.active {
+    color: #FFFFFF;
+    border-bottom-color: #FFFFFF;
+}
+
+footer,
+footer a {
+    color: #808080;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #FFFFFF;
+}
+
+/* Logo */
+
+@-webkit-keyframes swing {
+    20%, 40%, 60%, 80%, 100% { -webkit-transform-origin: top center; }
+    20% { -webkit-transform: rotate(15deg); }
+    40% { -webkit-transform: rotate(-10deg); }
+    60% { -webkit-transform: rotate(5deg); }
+    80% { -webkit-transform: rotate(-5deg); }
+    100% { -webkit-transform: rotate(0deg); }
+}
+
+@keyframes swing {
+    25% { transform: rotate(15deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-15deg); }
+    100% { transform: rotate(0deg); }
+}
+
+#index-logo img:hover {
+    -webkit-animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    -webkit-transform-origin: top center;
+    -webkit-animation-name: swing;
+    
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    transform-origin: top center;
+    animation-name: swing;
+    
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
